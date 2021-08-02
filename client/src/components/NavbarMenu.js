@@ -1,19 +1,18 @@
 import React from "react";
-import { Navbar, Nav, Button, Container } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 
 const NavbarMenu = () => {
   return (
     <>
-      <Navbar expand="lg" variant="light" bg="light">
-        <Container>
-          <Navbar.Brand href="#">Navbar</Navbar.Brand>
+      <Navbar expand="lg" variant="light" bg="dark">
+          <Navbar.Brand href="#" className="text-white ms-3">LOGO</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
             id="basic-navbar-nav"
-            className="justify-content-end"
+            className="justify-content-end me-3"
           >
             <Nav>
-              <Nav.Link className="fw-bolder mt-1" disabled>
+              <Nav.Link className="fw-bolder mt-1 text-white" disabled>
                 Username
               </Nav.Link>
               <Button
@@ -24,7 +23,6 @@ const NavbarMenu = () => {
               </Button>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
     </>
   );

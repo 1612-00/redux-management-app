@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AuthPage from './components/AuthPage';
-import HomePage from "./components/HomePage"
+import AuthPage from './layouts/AuthPage';
+import HomePage from "./layouts/HomePage"
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/authPage.css";
+import "../css/authPage.css";
 
 const AuthPage = () => {
   return (
